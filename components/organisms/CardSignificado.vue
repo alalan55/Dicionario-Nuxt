@@ -25,7 +25,9 @@
 
 <script>
 export default {
-  props: ['dados'],
+  props: {
+    dados:{type: Array, required: true}
+  },
 }
 </script>
 
