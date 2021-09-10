@@ -6,7 +6,7 @@
       :placeholder="placeholder"
       @keypress="sendArgs"
     />
-
+  
     <i class="fas fa-search"></i>
   </div>
 </template>
